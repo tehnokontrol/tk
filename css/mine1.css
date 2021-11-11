@@ -1,0 +1,274 @@
+@font-face {
+	font-family: 'geometric sans serif v1';
+	src: url('fonts/geometric.otf');
+}
+
+@font-face {
+	font-family: 'Piazzolla Thin';
+	src: url('fonts/Piazzolla.ttf');
+}
+
+body {
+	margin: 0;
+}
+
+.bodyall {
+
+	background-image: url("first.svg");
+   /* background-repeat: no-repeat;*/ 
+	background-position: 50% 50%;
+    background-attachment: fixed;
+ 
+
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+	.all {
+		max-width: 1300px;
+		min-width: 350;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+		.all2 {
+			background-image: url("001 TK BW.svg");
+			background-repeat: no-repeat; 
+			background-position: 50% 50%;
+			background-attachment: fixed;
+			background-size: contain;
+		}
+
+		.verhverh {
+			height: 3%;
+			background-color: rgba(0, 0, 0, 0.1);
+		}/*text-align: center;
+			background-image: url("line1.svg");
+			background-size: cover;
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+			-webkit-animation: anime 20s ease infinite;
+			animation: anime 120s ease infinite;
+		}
+
+		@-webkit-keyframes anime {
+			0% { background-position: 0% 50%; }
+			100% { background-position: -100% -50%;}
+		}
+
+		@keyframes anime {
+			0% { background-position: 0% 50%; }
+			100% { background-position: -100% -50%;}
+		}		
+		
+			.pop {
+				font-family: "geometric sans serif v1", sans-serif;
+				text-transform: lowercase;
+				margin: 0;
+				font-size: 25px;
+			}*/
+
+			.verh {
+				border: 4px double rgba(143, 6, 6, 0.25);
+				border-width: 4px 0;
+				padding: 5px;
+				margin: 3px;;
+				text-align: center;
+				background-image: url("line1.svg");
+				background-size: cover;
+				background-position: 100% 100%;
+				-webkit-background-clip: text;
+				background-clip: text;
+				-webkit-text-fill-color: transparent;
+				-webkit-animation: anim 10s ease infinite;
+				animation: anim 121s ease infinite;
+				}
+
+		    @-webkit-keyframes anim {
+				0% { background-position: 0% 50%; }
+				100% { background-position: -100% -50%; }
+			}
+
+			@keyframes anim {
+				0% { background-position: 0% 50%; }
+				100% { background-position: -100% -50%; }
+			}
+
+				.ooo {
+					font-family: "geometric sans serif v1", sans-serif;
+					text-transform: lowercase;
+					
+					font-size: 25px;
+					margin-block-start: 0;
+					margin-block-end: 0;
+					padding: 0 0 0 0;
+				}
+
+					.pooo {
+						margin: 5px;
+					}
+
+				.tk {
+					font-family: "geometric sans serif v1", sans-serif;
+					text-transform: uppercase; 
+					text-shadow: 0 0 7px rgba(255,255,255,.5); /*тень*/
+					font-size: 60px;
+					margin-block-start: 0;
+					margin-block-end: 0;
+					padding: 0 0 0 0;
+				}
+
+					.ptk {
+						margin: 10px;
+					}
+
+				.snc2004 {
+					
+					font-family: "Piazzolla Thin", sans-serif;
+					text-transform: lowercase; 
+					
+					font-size: 25px;
+					margin-block-start: 0;
+					margin-block-end: 0;
+					padding: 0 0 0 0;
+
+				}
+
+					.psnc2004 {
+						margin: 5px;
+					}
+
+			.ryad2 {
+				display: flex;
+				min-height: 75%;
+				/*font-size: 20px;*/	
+				font-family: "swis721 blkex", sans-serif;
+				font-weight: 600;
+				background-color: rgba(0, 0, 0, 0.1);
+			
+				}
+
+				.levo {
+					font-size: 24px;
+					width: 50%;
+					padding: 25px;
+					margin: auto;
+					color:rgb(0, 0, 0);
+					text-shadow: 0px 0px 1px #EBDFCC, 
+									0px 0px 2px #EBDFCC,
+									0px 0px 3px #EBDFCC,
+									0px 0px 4px #EBDFCC,
+									0px 0px 5px #EBDFCC,
+									0px 0px 6px #EBDFCC;
+				}
+
+				.levo1:hover {
+					color:rgb(202, 74, 0);
+					text-shadow: 0px 0px 1px #EBDFCC, 
+									0px 0px 2px #EBDFCC,
+									0px 0px 3px #EBDFCC,
+									0px 0px 4px #EBDFCC,
+									0px 0px 5px #EBDFCC,
+									0px 0px 6px #EBDFCC,
+									0px 0px 7px #EBDFCC,
+									0px 0px 9px #EBDFCC,
+									0px 0px 10px #EBDFCC;
+				}
+
+/*@media (max-width:600px){
+	
+	h2 {
+		font-size: calc (24px + 16 * 1.7 * (100vw - 320) / 1300);
+	
+}
+
+}*/
+
+
+
+
+				.pravo {
+					font-size: 24px;
+					width: 50%;
+					padding: 25px;
+					margin: auto;
+					text-align: right;
+					color:#EBDFCC;
+					text-shadow: 0px 0px 1px #000000, 
+									0px 0px 2px #000000,
+									0px 0px 3px #000000,
+									0px 0px 4px #000000,
+									0px 0px 5px #000000,
+									0px 0px 6px #000000;
+				}
+
+				a {
+					text-decoration: none;
+					color:#EBDFCC;
+					text-shadow: 0px 0px 1px #000000, 
+									0px 0px 2px #000000,
+									0px 0px 3px #EBDFCC,
+									0px 0px 4px #000000,
+									0px 0px 5px #000000,
+									0px 0px 6px #000000,
+									0px 0px 7px #000000,
+									0px 0px 8px #000000,
+									0px 0px 9px #EBDFCC;
+
+				}
+
+			.boxmap {
+				width: 70%;
+				height: 50%;
+				margin: auto;
+				padding: 7px;
+			}
+		
+				.map {
+					opacity: 0.9;
+						}
+		
+			.qr {
+				height: 300;
+				width: 300;
+				margin: auto;
+				background-image: url("01QR.svg");
+				background-repeat: no-repeat; 
+			}
+
+			.nizmine2 {
+				background: rgba(255, 255, 255, 0.3);
+				font-family: "Piazzolla Thin", sans-serif;
+				text-align: right;
+			}
+
+			.nizmine2:hover {
+				background: rgba(0, 0, 0, 0.5);
+				font-weight: 600;
+				color: #EBDFCC;
+			}
+
+			.nizmine3 {
+				height: 1%;
+			}
+
+/*			.blockimg {
+				background: rgba(255, 255, 255, 0.3);
+				width: 300px;
+				height: 300px;
+
+			}
+
+			.img {
+				
+				height: 100%;
+				width: 100%;
+				object-fit: contain;
+				object-position: center;
+			}*/

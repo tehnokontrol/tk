@@ -1,0 +1,112 @@
+<html>
+    <head>
+      <title> технадзор могилев </title>
+      <link rel="stylesheet" href="css/mine1.css">
+      <meta name="keywords" content="технадзор, могилев, технический надзор, функции заказчика, строительство, ремонт, снос, класс сложности, комплексное управление">
+
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+      
+</head>
+    
+    <body>
+            <div class = "bodyall">
+              
+              <div class="all">
+                
+                <div class="all2">  
+                  
+                  <div class="verhverh">
+                    <!--<p class="pop">заголовок 1</p> УДАЛИТЬ-->
+                  </div>
+                  
+                  <div class="verh">
+                    <div class="ooo"> 
+                      <p class="pooo">общество с ограниченной ответственностью</p>
+                    </div>
+                    <div class="tk">
+                      <p class="ptk">техноконтроль</p>
+                    </div>
+                    <div class="snc2004">
+                      <p class="psnc2004"> &mdash; технический надзор и функции заказчика в строительстве с 2004 г. &mdash;</p>
+                    </div>
+                
+                  </div>
+                    
+                  <div class="ryad2">
+                    
+                    <div class="levo"> 
+                      <p class="levo1">ООО "ТехноКонтроль" осуществляет:</p>
+                      <p class="levo1"> &mdash; комплексное управление строительной деятельностью (осуществление функций заказчика)</p>
+                      <p class="levo1"> &mdash; технический надзор в строительстве</p>
+                      <p class="levo1"> &mdash; скупка краденного</p>
+                      <p class="levo1"> &mdash; оказание инженерных услуг при строительстве (включая ремонт, новое строительство, снос) объектов 2 - 5 классов сложности</p>
+                      <br />
+                      <p class="levo1">Работаем с физическими и юридическими лицами</p>
+                      <p class="levo1">Осуществляем технический надзор при перепланировке квартир</p>
+                    </div>
+
+                    <div class="pravo" id="pravo">
+                      <p>Наш адрес:</p>
+                      <a href="#map" class="sslk">212030, г. Могилев,<br />
+                        пер. 1-й Тимирязевский, 6</a>
+                      <p>TKMogilev@mail.ru</p>
+                      <p>+375 29 7419780</p>
+                      <p>+375 29 6298996</p>
+                      <p>+375 222 606-006</p>
+                    </div>
+
+
+                  </div>
+                  
+                  <div class="boxmap">
+                      
+                    <div class="map" id="map">
+                        <!-- <P align="center"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A08120839060a77a519b69c4ab6ae3a74e3db20367525cbefe44e2a038ee7fe4f&amp;width=844&amp;height=692&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </P> -->
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A08120839060a77a519b69c4ab6ae3a74e3db20367525cbefe44e2a038ee7fe4f&amp;source=constructor"  width="100%" height="100%" frameborder="0"></iframe>
+                    
+                    </div>
+                  
+                  </div>
+                  
+                  <div id="qr" class="qr">
+                  </div>
+                  
+                  <div class="nizMine2">
+                    <p>website development: uks-mogilev@hotmail.com</p>
+                  </div>
+
+                  <div class="nizMine3"></div>
+
+                
+                </div>
+
+              </div>
+              
+               <!--<div class="blockimg">
+              <img class="logo" src="css/001 TK color2.svg">
+              </div>-->
+      
+            </div>  
+  
+            <script type="text/javascript">
+              $(document).ready(function(){
+                 $("#pravo").on("click","a", function (event) {
+                     event.preventDefault();
+                     var id  = $(this).attr('href'),
+                         top = $(id).offset().top;
+                     $('body,html').animate({scrollTop: top}, 1500);
+                     
+                    });
+             });
+             $(window).on( 'load', function() {
+              $('html, body').animate({scrollTop : 0});
+              }); 
+             
+                          
+             </script>
+ 
+  
+          </body>
+</html>
